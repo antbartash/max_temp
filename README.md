@@ -9,9 +9,10 @@ Code for feature engineering for traditional ML models can be found in the data 
 The mean absolute error (MAE) calculated on the validation dataset is presented below. The best results were achieved using CNNs and RNNs, although support vector regression (SVR) also performed well.
 
 
+## traditional_ml
+
 | Model               | MAE   | Hyperparameter tuning     | Candidates | CV-folds |
 |--------------------|--------|--------------------------|------------|----------|
-| **traditional_ml**  |        |                          |            |          |
 | KNN                 | 3.4062 | GridSearch               | 32         | 5        |
 | RadiusNeighbors     | 3.4909 | Manual                   | 3          | -        |
 | LinearRegression    | 3.1251 | GridSearch               | 250        | 5        |
@@ -29,11 +30,11 @@ The mean absolute error (MAE) calculated on the validation dataset is presented 
 | VotingRegressor     | 3.0877 | Manual                   | -          | -        |
 | StackingRegressor   | 3.0954 | Manual                   | 2          | -        |
 | MLP                 | 3.0412 | TPE                      | 383        | -        |
-| **baseline**        | 3.0629 |                          |            |          |
+
+## traditional_ml_w_base_features
 
 | Model               | MAE   | Hyperparameter tuning     | Candidates | CV-folds |
 |--------------------|--------|--------------------------|------------|----------|
-| **traditional_ml_w_base_features** | |                    |            |          |
 | KNN                 | 3.4062 | GridSearch               | 32         | 5        |
 | RadiusNeighbors     | 3.5856 | Manual                   | 3          | -        |
 | LinearRegression    | 3.1236 | GridSearch               | 250        | 5        |
@@ -51,11 +52,11 @@ The mean absolute error (MAE) calculated on the validation dataset is presented 
 | VotingRegressor     | 3.0877 | Manual                   | -          | -        |
 | StackingRegressor   | 3.0908 | Manual                   | 2          | -        |
 | MLP                 | 3.0516 | TPE                      | 188        | -        |
-| **baseline**        | 3.0967 |                          |            |          |
+
+## deep_learning
 
 | Model               | MAE   | Hyperparameter tuning     | Candidates |
 |--------------------|--------|--------------------------|------------|
-| **deep_learning**   |        |                          |            |
 | dense_baseline      | 2.9878 | Manual                   | 3          |
 | **dense_tuned**     | 2.9908 | TPE                      | 72         |
 | dense_tuned_manual  | 2.9821 | Manual                   | 7          |
