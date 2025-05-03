@@ -1,6 +1,6 @@
 # Comparison of ML Methods for Time Series Modeling: CNNs, RNNs, and Traditional Approaches
 
-This repository contains code for time series modeling using convolutional neural networks (CNNs), recurrent neural networks (RNNs), and traditional machine learning techniques (e.g., regression, gradient boosting).
+This repository contains codes for time series modeling using convolutional neural networks (CNNs), recurrent neural networks (RNNs), and traditional machine learning techniques (e.g., regression, gradient boosting, support vector machines).
 
 The goal of the algorithms is to predict the maximum air temperature based on the temperatures from the previous 14 days and the day of the year.
 
