@@ -53,7 +53,7 @@ The mean absolute error (MAE) calculated on the validation dataset is presented 
 | StackingRegressor   | 3.0908 | Manual                   | 2          | -        |
 | MLP                 | 3.0516 | TPE                      | 188        | -        |
 
-## deep_learning
+## neural_networks
 
 | Model               | MAE   | Hyperparameter tuning     | Candidates |
 |--------------------|--------|--------------------------|------------|
